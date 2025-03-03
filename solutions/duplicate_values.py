@@ -6,12 +6,11 @@ Given an integer array `nums`, return `True` if any value appears at least twice
 ## 🧩 Examples
 
 ### Example 1:
-**Input:**  
 ```python
-nums = [1,2,3,1]
-```
-**Output:**  
-```python
+# Input
+nums = [1, 2, 3, 1]
+
+# Output
 True
 ```
 **Explanation:** The element `1` appears twice at indices `0` and `3`.
@@ -19,12 +18,11 @@ True
 ---
 
 ### Example 2:
-**Input:**  
 ```python
-nums = [1,2,3,4]
-```
-**Output:**  
-```python
+# Input
+nums = [1, 2, 3, 4]
+
+# Output
 False
 ```
 **Explanation:** All elements are distinct.
@@ -32,12 +30,11 @@ False
 ---
 
 ### Example 3:
-**Input:**  
 ```python
-nums = [1,1,1,3,3,4,3,2,4,2]
-```
-**Output:**  
-```python
+# Input
+nums = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
+
+# Output
 True
 ```
 **Explanation:** Multiple numbers appear more than once.
@@ -58,12 +55,15 @@ True
 
 ### 🚀 Python Implementation:
 ```python
-def contains_duplicate(nums):
+from typing import List
+
+def contains_duplicate(nums: List[int]) -> bool:
     return len(set(nums)) != len(nums)
 
 # Example Usage:
-nums = [1,1,1,3,3,4,3,2,4,2]
-print(contains_duplicate(nums))  # Output: True
+if __name__ == "__main__":
+    nums = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
+    print(contains_duplicate(nums))  # Output: True
 ```
 
 ---
@@ -72,7 +72,13 @@ print(contains_duplicate(nums))  # Output: True
 - **Time Complexity:** `O(N)`, where `N` is the number of elements in `nums`, as we iterate once to create a set.
 - **Space Complexity:** `O(N)`, since a set is used to store unique elements.
 
+---
+
 ## ✅ Notes
-- Sets are fast, Note that empty Set cannot be created through {}, it creates dictonary, unles you include the values.
-- Set is implemented as 'hash table'. So you can expect to lookup/insert/delete in O(1) average.
+- **Sets are fast**: Note that an empty set cannot be created using `{}` as it creates a dictionary unless values are included.
+- **Set Implementation**: Sets in Python are implemented using **hash tables**, allowing for average-case `O(1)` time complexity for lookup, insert, and delete operations.
+
+---
+
+
 
