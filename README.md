@@ -2,6 +2,7 @@
 
 ![LeetCode](https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png)
 
+
 ## 📌 Overview
 Welcome to my LeetCode solutions repository! 🚀 Here, I am solving LeetCode problems using Python, covering a wide range of topics including data structures, algorithms, dynamic programming, and more.
 
@@ -13,7 +14,11 @@ Each solution is organized by problem category, and the filename follows this fo
 Example:
 ```
 1_duplicate_values.py
+2_missing_number.py
+3_find_all_missing_numbers.py
+4_two_sums.py
 ```
+
 
 ## 🛠 Topics Covered
 - ✅ Arrays & Hashing
@@ -39,10 +44,13 @@ To run a specific solution:
 python3 solutions/<problem_number>_<problem_name>.py
 ```
 
-## 🔥 Progress Tracker
+## 🔥 Progress Tracker 
 | Problem | Difficulty | Solution |
 |---------|------------|-----------|
 | Duplicate Values | Easy | [Solution](solutions/duplicate_values.py) |
+| Missing Number | Easy | [Solution](solutions/missing_number.py) |
+| Find All Numbers Disappeared in an Array| Easy | [Solution](solutions/find_all_missing_numbers.py) |
+| Two Sum | Easy | [Solution](solutions/two_sums.py) |
 
 _(More solutions added regularly)_
 
