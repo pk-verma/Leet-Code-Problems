@@ -1,7 +1,7 @@
-# 📝 Problem: Check for Duplicates in a List
+# 📝 Problem: Check for Duplicates in a List -> ARRAY
 
 ## 📌 Description
-Given an integer array `nums`, return `True` if any value appears at least twice in the array. Otherwise, return `False` if all elements are distinct.
+#Given an integer array `nums`, return `True` if any value appears at least twice in the array. Otherwise, return `False` if all elements are distinct.
 
 ## 🧩 Examples
 
